@@ -1,5 +1,5 @@
 <?php include_once "header.php"; //trae el contenido del encabezado ?>
-<form action="#" method="post" id="rolesFrm">
+<form id="rolesFrm">
     <div class="row my-5">
         <div class="col-12">
             <h1 class="text-center">Formulario Roles</h1>
@@ -11,7 +11,7 @@
             <input type="text" class="form-control" id="txtNombre" name="txtNombre">
         </div>
         <div class="col-3 align-self-end">
-            <input class="btn btn-dark bg-dark" type="submit" value="Registrar">
+            <input onclick="create()" class="btn btn-dark bg-dark" type="button" value="Registrar">
         </div>
     </div>
 </form>
